@@ -31,6 +31,9 @@ OpenAI API
 git clone <repo-url>
 cd rag-hybrid-bot
 pip install -r requirements.txt
+# Prepare FAISS index folder (run once)
+# On Windows PowerShell:
+mkdir faiss_index
 python app.py
 📂 Folder Structure
 rag-hybrid-bot/
@@ -45,4 +48,5 @@ Place your PDF inside the project folder
 Update the file name in app.py
 
 Run the bot and start asking questions
+
 
